@@ -195,7 +195,7 @@ function setup() {
   
   mycanvas = createCanvas(1920, 1080);
   
-  noiseSlider = createSlider(3, 40, 5)
+  noiseSlider = createSlider(1, 40, 5)
   noiseSlider.position(1540, 720)
   noiseSlider.size (320)
   
