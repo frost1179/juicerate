@@ -16,7 +16,7 @@ let sizeSlider;
 let sizeSlider2;
 
 let noiseScale = 0;
-let num = 3250;
+let num = 2500;
 let particles = [];
 
 let mycanvas, saveimg;
