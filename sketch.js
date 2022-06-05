@@ -16,7 +16,7 @@ let sizeSlider;
 let sizeSlider2;
 
 let noiseScale = 0;
-let num = 3000;
+let num = 3250;
 let particles = [];
 
 let mycanvas, saveimg;
@@ -68,7 +68,7 @@ class Particle {
       this.velocity.limit(1) //speed
       
       if (!onScreen(this.position)) {
-      this.position.x = random(width, width);
+      this.position.x = random(width-100, width);
       this.position.y = random(height);
     }
       
