@@ -68,7 +68,7 @@ class Particle {
       this.velocity.limit(1) //speed
       
       if (!onScreen(this.position)) {
-      this.position.x = random(width-100, width);
+      this.position.x = random(width);
       this.position.y = random(height);
     }
       
